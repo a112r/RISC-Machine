@@ -23,11 +23,11 @@ module cpu(clk,reset,in,mdata,out,N,V,Z,mem_addr,mem_cmd);
   wire [2:0] nsel;
   wire [1:0] vsel;
 
-  //lab7 state outputs
+  // state outputs
   wire load_pc, load_ir, reset_pc, load_addr, addr_sel;
   wire [1:0] mem_cmd;
 
-  //lab7 transtitions
+  // transtitions
   wire [8:0] next_pc, added_pc, data_addr;
 
 
