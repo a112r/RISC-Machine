@@ -11,8 +11,7 @@ This project, done as a part of a course features a fully functional 32-bit CPU 
   
 ## Development and Tools
 
-- **Verilog**: Used to design the CPU and its datapath, ensuring high performance and reliable hardware behavior.
-- **SystemVerilog**: Extensively employed for the coding of the CPU’s features and modules.
+- **SystemVerilog**: Used to design the CPU, ALU, regfile, shifter and its datapath, ensuring high performance and reliable hardware behavior.
 - **Quartus**: Used for synthesis and implementation on the FPGA.
 - **Modelsim**: Utilized for creating comprehensive testbenches to verify and simulate the functionality of every feature in the design.
 - **Testbenches**: Extensive testbenches were written to ensure every functionality was thoroughly verified.
@@ -27,3 +26,4 @@ This project, done as a part of a course features a fully functional 32-bit CPU 
 ## Testing
 - Extensive unit tests and testbenches are provided to validate the functionality of the CPU.
 - Testbenches are written in SystemVerilog and use Modelsim for simulation
+- The project was run on an Altera DE1-SOC FPGA and tested with the top module to use switches and hex displays for input and output.
