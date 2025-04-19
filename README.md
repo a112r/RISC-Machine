@@ -1,6 +1,6 @@
 # 32-bit ARM CPU and Datapath Implementation
 
-This project, done as a part of a course features a fully functional 32-bit CPU and datapath, developed using Verilog, capable of decoding and executing ARM Assembly instructions. The CPU design is implemented and tested on a **DE1-SoC FPGA**.
+This project features a fully functional 32-bit CPU and datapath, developed using Verilog, capable of decoding and executing ARM Assembly instructions. The CPU design is implemented and tested on a **DE1-SoC FPGA**.
 
 ## Features
 
